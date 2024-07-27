@@ -1,0 +1,356 @@
+*{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.header{
+  background-color:#111111;
+  padding: 50px;
+  
+}
+.navbar{
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+}
+   
+#anchor, .anchor{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#anchor{
+    
+    margin-left: 970px;
+ background-color: rgb(230, 83, 60);
+ border-radius: 46px;
+ padding: 8px 20px 8px 20px;
+ font-size: 18px;
+ font-weight: 600;
+ border: 0px;
+ width: 92px;
+ height: 38px;
+}
+#title{
+    font-size: 36px ;
+    font-weight: 800;
+    color: #E6533C;
+}
+.header-info{
+    display: flex;
+    flex-direction: row;
+   align-items:flex-start;
+}
+.header-shape{
+    font-size: 78px;
+    color: white;
+    margin-right: 200px;
+  
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+                                                
+}
+.box{
+font-size: 30px;
+color: white;
+font-weight: 700;
+margin-right: 50px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+}
+.subtitle{
+    font-size: 13px;
+    column-rule: white;
+    margin-right: 50px;
+}
+.selection{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#btn-1{font-size: 18px;
+background-color: #E6533C;
+border: none;
+border-radius: 42px;
+color: white;
+padding:16px 40px 16px 40px ;
+}
+#btn-2{
+ font-size: 18px;
+ box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px 16px 40px;
+background-color: transparent;
+color: white;
+}
+.box-2{
+    font-size: 30px;
+color: white;
+font-weight: 700;
+margin-left: 300px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+}
+.contain{
+    display: flex;
+    align-items: center;
+}
+main{
+    background-color: black;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-header{
+color: white;
+font-size: 48px;
+text-align: center;
+
+}
+.believe{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+}
+.excercise{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    
+margin-top: 60px;
+}
+.info{
+    color: rgba(255, 255, 255, 0.5);
+}
+.head{
+    color: white;
+    font-size: 18px;
+}
+.excercise-img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.run-head{
+ color: white;
+ font-size: 48px;
+ font-weight: 700;
+}
+.run{
+   
+   padding: 40px 50px;
+    border-radius: 18px;
+}
+.run-container-2{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+.run-info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 34px; 
+}
+.img-3{
+    width: 366px ;
+    height: 312px ;
+    border-radius: 18px;
+    margin-right: 2rem;
+}
+.run-container{
+    padding: 190px;
+}
+#btn-3{
+    background-color: #E6533C;
+    font-size: 18px;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+}
+.bmi-head{font-size: 48px;
+font-weight: 700;
+margin-left: 384.5px;
+color: white;
+}
+.bmi-info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-left: 384.5px;
+    margin-right: 384.5px;
+}
+.bmi{
+    background-color: rgb(34, 34, 34);;
+    margin-top: 88px;
+    padding: 100px;
+   
+}
+tr,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+th{
+    color: white;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+table{
+    width: 330px;
+    height: 216px;
+}
+.calc{
+    color: white;
+    font-size: 28px;
+}
+#bmi{
+    text-align: left;
+}
+.bmi-c{
+   color: white;
+   font-size: 28px;
+   font-weight: 700;
+}
+.bmi-2{
+    display: flex;
+    align-items: center;
+}
+.bmi-div{
+    
+margin-left: 400px;
+}
+.bmi-d{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 189px;
+}
+.inp{
+    margin-right: 12px;
+    color: rgba(255, 255, 255, 0.5);;
+    border: none;
+    width: 282.5px;
+    height: 48px;
+    margin-top: 12px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+text-align: justify;
+} 
+.inp-2{
+    color: rgba(255, 255, 255, 0.5);;
+    border: none;
+    width: 577px;
+    height: 48px;
+    margin-top: 12px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+}
+.btn-4{
+margin-top: 34px;
+}
+
+.btn-4{
+ border-radius: 42px;
+ background-color: #E6533C;
+ border: none;
+ color: white;
+ font-size:1.125rem ;
+ font-weight: 600 ;
+ width: 14rem ;
+ height: 3.375rem;
+}
+.team-head{
+    font-size:3rem ;
+    font-weight:900 ;
+    text-align: center;
+    color:white ;
+}
+.team-info{
+    font-size:0.875rem;
+    font-weight:400 ;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+#grid-container{
+    padding: 11.875rem;
+}
+.grid-container{
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(3,0.2fr);
+    gap: 1.25rem;
+    border-radius: 18px;
+    padding: 1.25rem;
+    margin-left: 6.25rem;
+}
+.grid-img{
+    width: 20.375rem ;
+    height:17rem ;
+    border-radius: 18px;
+    
+}
+.text {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.sub-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+footer{
+    background-color: rgb(34, 34, 34);;
+    display: flex;
+    justify-content: space-evenly;
+   padding: 7rem;
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.25rem;
+margin-right: 11.875rem;
+}
+#footer-title{
+    font-size: 4.375rem;
+    color: #E6533C;
+    font-weight: 800;
+}
+.get-started{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menu{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+}
+.menu-items{
+    list-style-type: none;
+}
+.end{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7.65rem;
+    text-decoration: overline;
+    background-color: rgb(34, 34, 34);;
+    margin-top: 0px;
+}
+@media screen and (max-width:576px){
+ .navbar{
+    flex-direction: column;
+ }
+}
